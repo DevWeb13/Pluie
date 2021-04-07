@@ -1,3 +1,47 @@
 
 
 /*# sourceMappingURL=style.css.map */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: #eee;
+    font-family: sans-serif;
+    height: 100vh;/*Toute la hauteur de la page*/;
+    overflow: hidden;/*Le contenu est rogné si besoin pour s'inscrire dans la boîte de remplissage (padding) et aucune barre de défilement n'est affichée.*/
+    margin: 0;
+    text-align: center;
+}
+
+.bg-image{
+    background: url(./media/basic-pics/rainbow-1467988_1920.jpg) no-repeat center/cover;
+    height: 100vh;
+    width: 100%;
+    filter: blur(4px) contrast(80%);/*blur: Floutage de l'image.
+                                      contrast: Assombri l'image.*/
+    
+}
+
+h1{
+    position: absolute;
+    top: 25%;/*Le texte remonte à 25% par rapport au haut de l'écran.*/
+    left: 50%;/*Le premier pixel en haut a gauche du texte se place à 50% de la gauche de l'écran.*/
+    transform: translateX(-50%);/*Centre le texte au milieu de l'écran.*/
+    background: rgba(0, 0, 0, 0.15);
+    padding: 2rem 3rem;
+}
+
+.fa-tint{
+    color: rgb(160, 160, 160);
+    position: absolute;
+    top: -20px;/*Les gouttes apparaissent au dessus de l'écran la où on ne les voit pas.*/
+    animation: fall linear forwards;
+}
+
+@keyframes fall{
+    to{
+        transform: translateY(105vh);/*Les gouttes sortent de l'écran en bas.*/
+    }
+}
