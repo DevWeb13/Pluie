@@ -2,10 +2,10 @@
 
 @author: [DevWeb13](https://twitter.com/DeveloppementW1)
 
-Dans ce mini projet nous créer des goutes d'eaux artificielles qui tomberont de façon aléatoire sur notre page…
+In this mini-project we create artificial drops of water that will fall randomly on our page...
 
-Réalisé grace au tutoriel YouTube: ["[Javascript #3] Faire tomber la pluie de façon aléatoire"](https://www.youtube.com/watch?v=-o4nvwN-ZwE) de ["From Scratch()"]( https://twitter.com/KobeKenjo).
+Realized thanks to the YouTube tutorial: ["[Javascript #3] Faire tomber la pluie de façon aléatoire"](https://www.youtube.com/watch?v=-o4nvwN-ZwE) of ["From Scratch()"]( https://twitter.com/KobeKenjo).
 
-Un grand merci a lui!!
+A big thank you to him!!
 
 # [SITE FINAL](https://devweb13.github.io/PluieJS/)
